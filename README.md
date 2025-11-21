@@ -40,3 +40,30 @@ PwnEnum is a combined Subdomain Enumeration and Directory Bruteforcing toolkit d
 ### Directory Enumeration
 `python3 PwnEnum.py dir -u https://example.com -w dirs.txt -t 50 -o results.txt`
     
+## Supported Options
+### General
+- -w, --wordlist: Path to the wordlist file.
+
+- -t, --threads: Number of threads to use.
+
+- -o, --output: Save results to an output file.
+
+- --proxy: Set a proxy (HTTP/S).
+
+- --rate-limit: Delay between requests in seconds.
+
+### Subdomain Enumeration
+
+- sub: Enter subdomain enumeration mode.
+
+- -d, --domain: Target domain.
+
+- -sc, --status-codes: Filter allowed HTTP status codes.
+
+### Directory Enumeration
+
+- dir: Enter directory enumeration mode.
+
+- -u, --url: Base URL for directory scanning.
+
+- -sc, --status-codes: Filter allowed HTTP status codes.
